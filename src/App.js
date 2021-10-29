@@ -31,6 +31,7 @@ const App = () => {
               <Route path="/takeoff-staff-test/signup" render={() => <SignUpPage />} />
               <Route path="/takeoff-staff-test/profile" render={() => <ProfilePage />} />
               <Route path="/takeoff-staff-test/logout" render={() => <Logoutpage />} />
+              <Route exact path="/" render={() => <Redirect to="/takeoff-staff-test/login" />} />
               <Route
                 path="/takeoff-staff-test/"
                 render={() => <Redirect to="/takeoff-staff-test/login" />}
