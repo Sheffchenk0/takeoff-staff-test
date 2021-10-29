@@ -1,0 +1,2 @@
+(this["webpackJsonptakeoff-staff-test"]=this["webpackJsonptakeoff-staff-test"]||[]).push([[7],{129:function(t,e,f){"use strict";f.r(e);var s=f(0),c=f(12),a=f(3),n=f(21),o=f(1);e.default=function(){var t=Object(c.c)((function(t){return t.auth.isAuth})),e=Object(c.b)();return Object(s.useEffect)((function(){t&&(e(Object(n.h)(!1)),e(Object(n.b)("Log out done",!1)))}),[e,t]),Object(o.jsx)(a.a,{to:"/takeoff-staff-test/"})}}}]);
+//# sourceMappingURL=7.fdb7ec52.chunk.js.map
