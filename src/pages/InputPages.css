@@ -1,0 +1,14 @@
+.title {
+    font-size: 18px;
+}
+
+.input-block {
+    margin: 20px 0px 5px 0px;
+}
+
+.warning {
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 3px;
+}

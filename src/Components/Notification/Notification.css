@@ -1,0 +1,25 @@
+.notification {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(0, 196, 0);
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+}
+
+.error {
+    background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .notification {
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        left: 0px;
+    }
+}

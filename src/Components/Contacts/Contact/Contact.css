@@ -1,0 +1,94 @@
+form {
+    margin-top: 0px;
+}
+
+input.small {
+    display: inline-block;
+    height: 20px;
+    width: 48%;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    border-radius: 0px;
+    outline: none;
+}
+
+input.small:hover {
+    outline: none;
+}
+
+input.small:active {
+    background-color: #fff;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.contact__info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+.contact__fullname {
+    min-width: 11%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    word-wrap: break-word;
+    margin: 3px 10px 3px 0px;
+}
+
+input.fullname {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+
+.contact__number {
+    min-width: 10%;
+    font-size: 15px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+input.number {
+    font-size: 15px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.contact__desc {
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    font-weight: 600;
+    width: auto;
+    min-width: 80%;
+    word-wrap: break-word;
+}
+
+input.desc {
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    margin-top: 6px;
+    font-weight: 600;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.contact__button {
+    display: flex;
+    /* right: 0;
+    top: 50%;
+    transform: translateY(-50%); */
+    transition: .15s linear;
+}

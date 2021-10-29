@@ -1,0 +1,26 @@
+.edit {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .15s linear;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.edit svg {
+    width: 15px;
+    height: 15px;
+}
+
+.edit svg path {
+    fill: rgb(134, 134, 134);
+}
+
+.edit:hover {
+    background-color: rgb(224, 224, 224);
+}

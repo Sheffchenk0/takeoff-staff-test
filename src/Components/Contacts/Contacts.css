@@ -1,0 +1,50 @@
+.new-contact {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.new-contact__open {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(36, 218, 36);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.input-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 0px 5px;
+}
+
+.input-col label {
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+
+/* .new-contact__open svg {
+    width: 16px;
+    height: 16px;
+}
+
+.new-contact__open svg path {
+    fill: rgb(0, 0, 0);
+} */
